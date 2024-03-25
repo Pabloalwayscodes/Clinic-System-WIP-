@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+.updiv{
+    width: 100%;
+    height: 18%;
+    position: fixed;
+    background-color: #111C5A;
+    color: white;
+    font-size: 50px;    
+}
+.title{
+    position: absolute;
+    background-color: #111C5A;
+     top: 25%;
+     left: 34%;
+}
+.frontdiv{
+    border: 1px solid 778899;
+    background-color: #778899;
+    width: 100%;
+    height: 82%;
+    position: absolute;
+    top: 18%;
+    right:0%;
+}
+#sidebar{
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background:#111C5A;
+    left: -220px;
+    transition: .5s;
+}
+#sidebar.active {
+    left: 20px;
+}
+#sidebar ul li {
+    list-style: none;
+    color: #111C5A;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    top: 30px;
+    left: 230px;
+
+}
+.toggle-btn span{
+    width: 45px;
+    height: 5px;
+    background: #111C5A;
+    display: block;
+    margin-top: 4px;
+    
+}
+.toggle-btn{
+    cursor: pointer;
+
+}
+#btnBMI{
+   position: absolute;
+    width: 80%;
+    height: 6%;
+    top: 30px;
+    left: 11%;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #778899;
+    border: none;
+    border-radius: 3px;
+}
+#btnBMI:hover{
+    background-color: #111C5A;
+    color: #fff;
+}
+#btnLB{
+    position: absolute;
+     width: 80%;
+     height: 6%;
+     top: 80px;
+     left: 11%;
+     font-size: 16px;
+     cursor: pointer;
+     color: white;
+     background-color: #778899;
+     border: none;
+     border-radius: 3px;
+ }
+ #btnLB:hover{
+     background-color: #111C5A;
+     color: #fff;
+ }
+ #btnSI{
+    position: absolute;
+     width: 80%;
+     height: 6%;
+     top: 130px;
+     left: 11%;
+     font-size: 16px;
+     cursor: pointer;
+     color: white;
+     background-color: #778899;
+     border: none;
+     border-radius: 3px;
+ }
+ #btnSI:hover{
+    background-color: #111C5A;
+    color: #fff;
+}
+#btnSet{
+    position: absolute;
+     width: 80%;
+     height: 6%;
+     top: 180px;
+     left: 11%;
+     font-size: 16px;
+     cursor: pointer;
+     color: white;
+     background-color: #778899;
+     border: none;
+     border-radius: 3px;
+ }
+ #btnSet:hover{
+    background-color: #111C5A;
+    color: #fff;
+}
+#school-logo{
+    width: 95px;
+    position: absolute;
+    right: 66%;
+    top: 11px;
+}
+.webcontainer{
+    width:  94.8%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    background-color: white;
+
+}
+body{
+    min-height: 100vh;
+    font-family: "Nunito", sans-serif;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-60%,-25%);
+}
+.box{
+    min-width: 400px;
+    background-color: #778899;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+
+}
+h1 {
+    font-weight: bold;
+    font-size: 0px;
+    padding: 20px 0;
+     
+  }
+.content {
+    padding: 0 30px;
+}
+.input {
+    background: #fff;
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+  }
+  .input label {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 15px;
+  
+}
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #4f7df9;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Nunito", sans-serif;
+}
+button#calculate {
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+  background: #111C5A;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 15px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  transition: background 0.2s ease;
+}
+button#calculate:hover {
+  background: #0044ff;
+}
+.result {
+  padding: 20px 20px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
+}
+.result #result {
+  font-size: 25px;
+  font-weight: 900;
+  color: #4f7df9;
+  background-color: white;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+}
+#comment {
+  color: #4f7df9;
+  font-weight: 500;
+}

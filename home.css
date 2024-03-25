@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+.updiv{
+    width: 100%;
+    height: 16%;
+    position: fixed;
+    background-color: #111C5A;
+    color: white;
+    font-size: 50px;    
+}
+.title{
+    position: absolute;
+    background-color: #111C5A;
+     top: 25%;
+     left: 34%;
+}
+.frontdiv{
+    border: 1px solid 778899;
+    background-color: #778899;
+    width: 100%;
+    height: 84%;
+    position: absolute;
+    top: 16%;
+    right:0%;
+}
+#sidebar{
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background:#111C5A;
+    left: -220px;
+    transition: .5s;
+}
+#sidebar.active {
+    left: 20px;
+}
+#sidebar ul li {
+    list-style: none;
+    color: #111C5A;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+#sidebar .toggle-btn{
+    position: absolute;
+    top: 30px;
+    left: 230px;
+
+}
+.toggle-btn span{
+    width: 45px;
+    height: 5px;
+    background: #111C5A;
+    display: block;
+    margin-top: 4px;
+    
+}
+.toggle-btn{
+    cursor: pointer;
+
+}
+#btnBMI{
+   position: absolute;
+    width: 80%;
+    height: 6%;
+    top: 30px;
+    left: 11%;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #778899;
+    border: none;
+    border-radius: 3px;
+}
+#btnBMI:hover{
+    background-color: #111C5A;
+    color: #fff;
+}
+#btnLB{
+    position: absolute;
+     width: 80%;
+     height: 6%;
+     top: 80px;
+     left: 11%;
+     font-size: 16px;
+     cursor: pointer;
+     color: white;
+     background-color: #778899;
+     border: none;
+     border-radius: 3px;
+ }
+ #btnLB:hover{
+     background-color: #111C5A;
+     color: #fff;
+ }
+ #btnSI{
+    position: absolute;
+     width: 80%;
+     height: 6%;
+     top: 130px;
+     left: 11%;
+     font-size: 16px;
+     cursor: pointer;
+     color: white;
+     background-color: #778899;
+     border: none;
+     border-radius: 3px;
+ }
+ #btnSI:hover{
+    background-color: #111C5A;
+    color: #fff;
+}
+#btnSet{
+    position: absolute;
+     width: 80%;
+     height: 6%;
+     top: 180px;
+     left: 11%;
+     font-size: 16px;
+     cursor: pointer;
+     color: white;
+     background-color: #778899;
+     border: none;
+     border-radius: 3px;
+ }
+ #btnSet:hover{
+    background-color: #111C5A;
+    color: #fff;
+}
+#school-logo{
+    width: 95px;
+    position: absolute;
+    right: 66%;
+    top: 11px;
+}
+.webcontainer{
+    width:  94.8%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    background-color: white;
+
+}
